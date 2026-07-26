@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node --check assets/js/parser.js)",
+      "Bash(node --check assets/js/render-product.js)",
+      "Bash(cat)",
+      "Bash(node /c/Users/danie/AppData/Local/Temp/claude/C--Users-danie-Documents-Learn-KLIM/a1a7dfea-8cd8-4b34-aa69-0ea8ba18330d/scratchpad/t.js)",
+      "Bash(py --version)",
+      "Bash(python -m http.server 8765)",
+      "Bash(python -c ' *)",
+      "Bash(node -e \"global.window={}; require\\('./comparisons/pant-comparison.js'\\); console.log\\('OK rows:', window.KLIM_COMPARISONS[0].rows.length, 'cols:', window.KLIM_COMPARISONS[0].columns.length\\)\")",
+      "Bash(curl -s http://localhost:8765/comparisons.html)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:8765/comparisons/pant-comparison.js)",
+      "Bash(node -e ' *)",
+      "Bash(python -c \"import PIL; print\\('PIL', PIL.__version__\\)\")",
+      "Bash(cd *)",
+      "Bash(python \"C:/Users/danie/AppData/Local/Temp/claude/C--Users-danie-Documents-Learn-KLIM/72b03db2-3934-404c-9eab-840c7ec5e569/scratchpad/fetch_images.py\")",
+      "Bash(python -)",
+      "Bash(python *)",
+      "Bash(node --check comparisons/Helmet-comparison.js)"
+    ]
+  }
+}

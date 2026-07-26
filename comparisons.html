@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Comparisons — KLIM Sales Floor</title>
+  <meta name="description" content="Side-by-side product comparison tables for the shop floor." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body class="page-comparisons">
+  <header class="topbar">
+    <a class="brand" href="index_multifile.html">
+      <img class="klim-logo-img" src="assets/img/Klim_Logo.png" alt="KLIM" />
+      <span class="klim-logo-sub">// ENGINEERED FOR ADVENTURE</span>
+    </a>
+    <nav class="topbar-nav" aria-label="Primary">
+      <a class="topbar-link" href="index_multifile.html">Catalog</a>
+      <a class="topbar-link active" href="comparisons.html" aria-current="page">Comparisons</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="cmpc-hero">
+      <div class="container">
+        <div class="eyebrow">Internal · Staff reference</div>
+        <h1 class="cmpc-title">Comparisons</h1>
+        <p class="cmpc-lede">Side-by-side cheat sheets for the floor. Pick a comparison on the left —
+          one table shows at a time.</p>
+        <div class="index-meta">
+          <span class="count-badge"><span id="cmpCount">00</span> tables</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="cmpc-wrap">
+      <div class="container cmpc-layout">
+        <nav id="cmpTabs" class="cmpc-tabs" role="tablist" aria-label="Comparison tables"></nav>
+        <div id="cmpPanels" class="cmpc-panels"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="back-link" href="index_multifile.html">← Back to all products</a>
+      <span class="footer-mono">Internal prototype · Demo only</span>
+    </div>
+  </footer>
+
+  <!-- Parser (for shared escaping helpers) -->
+  <script src="assets/js/parser.js"></script>
+  <!-- COMPARISONS: add one line per comparison table file -->
+  <script src="comparisons/jacket-comparison.js"></script>
+  <script src="comparisons/pant-comparison.js"></script>
+  <script src="comparisons/glove-comparison.js"></script>
+  <script src="comparisons/Helmet-comparison.js"></script>
+  <!-- /COMPARISONS -->
+  <script src="assets/js/render-comparisons.js"></script>
+</body>
+</html>

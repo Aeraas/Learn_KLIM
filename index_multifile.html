@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>KLIM Sales Floor — Product Cards</title>
+  <meta name="description" content="Quick-learn product cards for the shop floor." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body class="page-index">
+  <header class="topbar">
+    <a class="brand" href="index_multifile.html">
+      <span class="brand-mark">KLIM</span>
+      <span class="brand-sub">// SALES FLOOR</span>
+    </a>
+    <nav class="topbar-nav" aria-label="Primary">
+      <a class="topbar-link active" href="index_multifile.html" aria-current="page">Catalog</a>
+      <a class="topbar-link" href="comparisons.html">Comparisons</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="index-hero">
+      <div class="hero-grid-bg" aria-hidden="true"></div>
+      <div class="container index-hero-inner">
+        <div class="eyebrow">Internal · Staff reference</div>
+        <h1 class="index-title">Know the gear.<br /><span class="accent-text">Close the sale.</span></h1>
+        <p class="index-lede">Bite-sized product cards built for the shop floor — the pitch, the specs,
+          and the answers to every question a customer throws at you.</p>
+        <div class="index-meta">
+          <span class="count-badge"><span id="catCount">00</span> products</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="catalog-wrap">
+      <div class="container">
+        <header class="section-head section-head--center">
+          <span class="section-idx">//</span>
+          <h2 class="section-title">The catalog</h2>
+          <span class="section-rule"></span>
+        </header>
+        <div id="catalog" class="catalog-grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>KLIM Sales Floor — internal prototype</span>
+      <span class="footer-mono">Not affiliated with KLIM. Demo only.</span>
+    </div>
+  </footer>
+
+  <!-- Parser + index renderer -->
+  <script src="assets/js/parser.js"></script>
+  <!-- PRODUCTS: add one line per product file -->
+  <script src="products/marrakesh.js"></script>
+  <script src="products/Dakar_Jacket.js"></script>
+  <script src="products/Latitude_Jacket.js"></script>
+  <script src="products/Carlsbad_Jacket.js"></script>
+  <script src="products/Badlands_Pro_Jacket.js"></script>
+  <script src="products/Badlands_Pro_A3_Jacket.js"></script>
+  <script src="products/Kodiak_Jacket.js"></script>
+  <script src="products/Altitude_Jacket.js"></script>
+  <script src="products/Artemis_Jacket.js"></script>
+  <script src="products/Artemis_Jacket_Gen2.js"></script>
+  <script src="products/Zephyr_Wind_Shirt.js"></script>
+  <script src="products/Maverick_Down_Jacket.js"></script>
+  <script src="products/Marrakesh_Pant.js"></script>
+  <script src="products/Dakar_Pant.js"></script>
+  <script src="products/Latitude_Pant.js"></script>  
+  <script src="products/Carlsbad_Pant.js"></script>
+  <script src="products/Badlands_Pro_Pant.js"></script>
+  <script src="products/Badlands_Pro_A3_Pant.js"></script>
+  <script src="products/Kodiak_Pant.js"></script>
+  <script src="products/SwitchBack_Cargo_Pant.js"></script>
+  <script src="products/Induction_Glove.js"></script>
+  <script src="products/Dakar_Pro_Glove.js"></script>
+  <script src="products/Dakar_Glove.js"></script>
+  <script src="products/Adventure_GTX_Glove.js"></script>
+  <script src="products/Vanguard_Glove.js"></script>
+  <script src="products/Marrakesh_Glove.js"></script>
+  <script src="products/Rebelle_Glove.js"></script>
+  <script src="products/Badlands_GTX_Glove.js"></script>
+  <script src="products/Badlands_Aero_Glove.js"></script>
+  <script src="products/Outlander_GTX_Boot.js"></script>
+  <script src="products/Transition_GTX_Boot.js"></script>
+  <script src="products/Blak_Jak_Boot.js"></script>
+  <script src="products/Induction_Jacket.js"></script>
+  <script src="products/Induction_Pro_Jacket.js"></script>
+  <script src="products/Baja_Jacket.js"></script>
+  <script src="products/Traverse_GTX_Jacket.js"></script>
+  <script src="products/Raptor_GTX_Overshell_Jacket.js"></script>
+  <script src="products/Adventure_Rally_Jacket.js"></script>
+  <script src="products/Sixxer_Leather_Jacket.js"></script>
+  <script src="products/X1-Alpha-Helmet.js"></script>
+  <script src="products/Krios_Pro_Helmet.js"></script>
+  <script src="products/GT1_Expedition_Helmet.js"></script>
+
+  <!-- /PRODUCTS -->
+  <script src="assets/js/render-index.js"></script>
+</body>
+</html>
