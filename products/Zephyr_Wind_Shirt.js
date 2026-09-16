@@ -15,7 +15,7 @@ window.KLIM_PRODUCTS.push({
   id: 'Zephyr_Wind_Shirt',
   group: 'Layers',                         // catalog section this product is filed under
   category: 'Windproof Layer',
-  image: 'assets/img/Zephr_Wind_Shirt.avif',
+  image: 'assets/img/Zephr_Wind_Shirt.png',
   accent: '#FF4D1C',                       // optional: per-product accent colour
   badges: ['Windproof layer', 'Packs to a tennis ball', 'Best-value upsell', 'NOT a riding jacket'], // optional hero chips
   markdown: `# KLIM Zephyr Wind Shirt
