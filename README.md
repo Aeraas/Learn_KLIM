@@ -68,7 +68,6 @@ That's it — the new product appears on the index and gets its own page.
 | who / audience        | bulleted audience list               |
 | feature               | technical spec grid                  |
 | top selling / selling | **big numbered pitch cards** (hero of the page) |
-| price                 | price cards                          |
 | quote / notable       | quote wall                           |
 | question / faq        | expandable accordion                 |
 | source                | collapsed-by-default sources panel   |
